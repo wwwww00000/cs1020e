@@ -1,0 +1,57 @@
+4
++prod 1 brandOne prodOne
++prod 3 brandTwo prodTwo
++prod 5 brandThree prodThree
++prod 7 brandFour prodFour
++prod 9 brandFive prodFive
++prod 11 brandSix prodSix
++store 1 outletOne storeOne
++store 3 outletTwo storeTwo
++store 5 outletThree storeThree
++store 7 outletFour storeFour
++store 9 outletFive storeFive
++store 11 outletSix storeSix
+-map brandThree prodThree outletThree storeThree
++map brandThree prodThree outletThree storeThree
++map brandThree prodThree outletThree storeThree
+-map brandThree prodThree outletThree storeThree
++map brandThree prodThree outletThree storeThree
++map brandThree prodThree outletThree storeThree
++map brandThree prodThree outletFour storeFour
++map brandThree prodThree outletFour storeFour
++map brandThree prodThree outletFive storeFive
++map brandThree prodThree outletFive storeFive
++map brandFour prodFour outletThree storeThree
++map brandFour prodFour outletThree storeThree
+-prod 3
+-prod 1
+-store 3
++map brandFive prodFive outletThree storeThree
++map brandFive prodFive outletThree storeThree
++map brandSix prodSix outletThree storeThree
++map brandSix prodSix outletThree storeThree
++map brandThree prodThree outletSix storeSix
++map brandThree prodThree outletSix storeSix
++map brandThree prodThree outletOne storeOne
++map brand prodThree outletSix storeSix
++map brandThree Three outletSix storeSix
++map brandThree prodThree Six storeSix
++map brandThree prodThree outletSix Six
++map b p o s
++map b p outletSix storeSix
++map brandThree prodThree o s
+-map brand prodThree outletSix storeSix
+-map brandThree Three outletSix storeSix
+-map brandThree prodThree Six storeSix
+-map brandThree prodThree outletSix Six
+-map b p o s
+-map b p outletSix storeSix
+-map brandThree prodThree o s
+-map brandThree prodThree outletFour storeFour
+-map brandThree prodThree outletFour storeFour
++map brandThree prodThree outletSix storeSix
+-map brandThree prodThree outletSix storeSix
+-map brandThree prodThree outletSix storeSix
++map brandThree prodThree outletOne storeOne
++map brandThree prodThree outletSix storeSix
+-map brandThree prodThree outletOne storeOne

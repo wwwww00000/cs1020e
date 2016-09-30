@@ -1,0 +1,106 @@
+Product -1 brandOne prodOne- added
+Product -3 brandTwo prodTwo- added
+Product -5 brandThree prodThree- added
+Product -7 brandFour prodFour- added
+Product -9 brandFive prodFive- added
+Product -11 brandSix prodSix- added
+Store -1 outletOne storeOne- added
+Store -3 outletTwo storeTwo- added
+Store -5 outletThree storeThree- added
+Store -7 outletFour storeFour- added
+Store -9 outletFive storeFive- added
+Store -11 outletSix storeSix- added
+No existing mapping between product -5 brandThree prodThree- and store -5 outletThree storeThree-
+Product -5 brandThree prodThree- mapped to store -5 outletThree storeThree-
+Product -5 brandThree prodThree- already mapped to store -5 outletThree storeThree-
+Product -5 brandThree prodThree- unmapped from store -5 outletThree storeThree-
+Product -5 brandThree prodThree- mapped to store -5 outletThree storeThree-
+Product -5 brandThree prodThree- already mapped to store -5 outletThree storeThree-
+Product -5 brandThree prodThree- mapped to store -7 outletFour storeFour-
+Product -5 brandThree prodThree- already mapped to store -7 outletFour storeFour-
+Product -5 brandThree prodThree- mapped to store -9 outletFive storeFive-
+Product -5 brandThree prodThree- already mapped to store -9 outletFive storeFive-
+Product -7 brandFour prodFour- mapped to store -5 outletThree storeThree-
+Product -7 brandFour prodFour- already mapped to store -5 outletThree storeThree-
+Product -3 brandTwo prodTwo- removed
+Product -1 brandOne prodOne- removed
+Store -3 outletTwo storeTwo- removed
+Product -9 brandFive prodFive- mapped to store -5 outletThree storeThree-
+Product -9 brandFive prodFive- already mapped to store -5 outletThree storeThree-
+Product -11 brandSix prodSix- mapped to store -5 outletThree storeThree-
+Product -11 brandSix prodSix- already mapped to store -5 outletThree storeThree-
+Product -5 brandThree prodThree- mapped to store -11 outletSix storeSix-
+Product -5 brandThree prodThree- maxed out, cannot map to store -11 outletSix storeSix-
+Product -5 brandThree prodThree- maxed out, cannot map to store -1 outletOne storeOne-
+Cannot map, no such product or store
+Cannot map, no such product or store
+Cannot map, no such product or store
+Cannot map, no such product or store
+Cannot map, no such product or store
+Cannot map, no such product or store
+Cannot map, no such product or store
+Cannot unmap, no such product or store
+Cannot unmap, no such product or store
+Cannot unmap, no such product or store
+Cannot unmap, no such product or store
+Cannot unmap, no such product or store
+Cannot unmap, no such product or store
+Cannot unmap, no such product or store
+Product -5 brandThree prodThree- unmapped from store -7 outletFour storeFour-
+No existing mapping between product -5 brandThree prodThree- and store -7 outletFour storeFour-
+Product -5 brandThree prodThree- already mapped to store -11 outletSix storeSix-
+Product -5 brandThree prodThree- unmapped from store -11 outletSix storeSix-
+No existing mapping between product -5 brandThree prodThree- and store -11 outletSix storeSix-
+Product -5 brandThree prodThree- mapped to store -1 outletOne storeOne-
+Product -5 brandThree prodThree- mapped to store -11 outletSix storeSix-
+Product -5 brandThree prodThree- unmapped from store -1 outletOne storeOne-
+
+5 store(s) remaining
+
+=Store -1 outletOne storeOne-
+=0 product(s)
+
+=Store -5 outletThree storeThree-
+=4 product(s) [
+=    -5 brandThree prodThree-
+=    -7 brandFour prodFour-
+=    -9 brandFive prodFive-
+=    -11 brandSix prodSix-
+=]
+
+=Store -7 outletFour storeFour-
+=0 product(s)
+
+=Store -9 outletFive storeFive-
+=1 product(s) [
+=    -5 brandThree prodThree-
+=]
+
+=Store -11 outletSix storeSix-
+=1 product(s) [
+=    -5 brandThree prodThree-
+=]
+
+4 product(s) remaining
+
+=Product -5 brandThree prodThree-
+=3 store(s) [
+=    -5 outletThree storeThree-
+=    -9 outletFive storeFive-
+=    -11 outletSix storeSix-
+=]
+
+=Product -7 brandFour prodFour-
+=1 store(s) [
+=    -5 outletThree storeThree-
+=]
+
+=Product -9 brandFive prodFive-
+=1 store(s) [
+=    -5 outletThree storeThree-
+=]
+
+=Product -11 brandSix prodSix-
+=1 store(s) [
+=    -5 outletThree storeThree-
+=]

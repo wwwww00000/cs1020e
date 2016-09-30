@@ -1,0 +1,68 @@
+Product -123 Mars Bar- added
+Store -123 Siglap NTUC- added
+Product -124 Snickers Bar- added
+Store -124 MarineParade NTUC- added
+Product -123 Mars Bar- already exists, cannot add -128 Mars Bar-
+Product -123 Mars Bar- already exists, cannot add -123 KitKat Choc-
+Product -125 Snickers Nuts- added
+Store -125 MarineParade Econ- added
+Store -123 Siglap NTUC- already exists, cannot add -127 Siglap NTUC-
+Store -124 MarineParade NTUC- already exists, cannot add -124 EastCoast MCDonalds-
+Product -123 Mars Bar- already exists, cannot add -123 Mars Bar-
+Product -123 Mars Bar- already exists, cannot add -125 Mars Bar-
+Product -123 Mars Bar- already exists, cannot add -123 Snickers Nuts-
+Store -123 Siglap NTUC- already exists, cannot add -123 Siglap NTUC-
+Store -123 Siglap NTUC- already exists, cannot add -125 Siglap NTUC-
+Store -123 Siglap NTUC- already exists, cannot add -123 MarineParade Econ-
+Product -124 Snickers Bar- mapped to store -125 MarineParade Econ-
+No such store
+No such store
+No such store
+No such product
+No such product
+No such product
+Store -124 MarineParade NTUC- removed
+Cannot remove, store -125 MarineParade Econ- is mapped to product(s)
+Cannot remove, product -124 Snickers Bar- is mapped to store(s)
+Product -125 Snickers Nuts- removed
+Product -120 SaltedEgg Burger- added
+Store -120 YourHouse McDonalds- added
+Product -120 SaltedEgg Burger- mapped to store -123 Siglap NTUC-
+Product -123 Mars Bar- mapped to store -123 Siglap NTUC-
+Product -121 Salted Egg- added
+
+3 store(s) remaining
+
+=Store -123 Siglap NTUC-
+=2 product(s) [
+=    -120 SaltedEgg Burger-
+=    -123 Mars Bar-
+=]
+
+=Store -125 MarineParade Econ-
+=1 product(s) [
+=    -124 Snickers Bar-
+=]
+
+=Store -120 YourHouse McDonalds-
+=0 product(s)
+
+4 product(s) remaining
+
+=Product -123 Mars Bar-
+=1 store(s) [
+=    -123 Siglap NTUC-
+=]
+
+=Product -124 Snickers Bar-
+=1 store(s) [
+=    -125 MarineParade Econ-
+=]
+
+=Product -120 SaltedEgg Burger-
+=1 store(s) [
+=    -123 Siglap NTUC-
+=]
+
+=Product -121 Salted Egg-
+=0 store(s)

@@ -1,0 +1,14 @@
+3
++store 1 Bedok ShengSiong
++store 4 Clementi Giant
++store 2 Bedok NTUC 
++store 3 Lemontea NTUC
+-store 3
+-store Clementi Giant
++store 3 Clementi NTUC
++prod 1 Ricola Sweet
++prod 4 Eclipse Breathmints
++prod 2 Ricola Lozenges
++prod 3 Str Lozenges
+-prod 3
+-prod Eclipse Breathmints 

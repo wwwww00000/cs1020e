@@ -1,0 +1,83 @@
+TEST RUN ERRORS
+
+Fail Test Case: rr1
+
+Incorrect Output
+
+Expected output vs your output:
+
+Expected Output	Your Output
+1	[0 3 5]	1	[8 5 10 6 3 5 10 0 0 0 0 0]
+Fail Test Case: rr2
+
+Incorrect Output
+
+Expected output vs your output:
+
+Expected Output	Your Output
+1	[0 1 2]	1	[5 2 4 7 0 0 0 0 20353 0 0 0]
+Fail Test Case: rr3
+
+Incorrect Output
+
+Expected output vs your output:
+
+Expected Output	Your Output
+1	[2 3 4]	1	[5 2 5 4 0 0 0 0 20353 0 0 0]
+Fail Test Case: rr4
+
+Incorrect Output
+
+Expected output vs your output:
+
+Expected Output	Your Output
+1	[0 1 2]	1	[7 4 4 5 5 4 0 0 0 0 0 0]
+Fail Test Case: rr5
+
+Incorrect Output
+
+Expected output vs your output:
+
+Expected Output	Your Output
+1	[2 3 4]	1	[7 4 8 5 9 7 0 0 0 0 0 0]
+Fail Test Case: rri6
+
+Incorrect Output
+
+Expected output vs your output:
+
+Expected Output	Your Output
+1	[0 14792 29584 44376 59168 73960 88752 103544 118336 133128 147920 162712 177504 192296 207088 221880 236672 251464 266256 281048 295840 310632 325424 340216 355008 369800 384592 399384 414176 428968...	1	[636056 636013 1 1 1 1 1 1 1 1 1 1]
+Fail Test Case: rri7
+
+Incorrect Output
+
+Expected output vs your output:
+
+Expected Output	Your Output
+1	[0 128000 256000 384000 512000]	1	[640000 639995 512000001 511999201 511998401 511997601 511996801 511996001 511995201 511994401 511993601 511992801]
+Fail Test Case: rri8
+
+Incorrect Output
+
+Expected output vs your output:
+
+Expected Output	Your Output
+1	[0 4 5 7 8 19 20 21 22 26 27 28 30 32 34 37 41 44 48 57 61 63 64 66 68 72 75 77 78 86 88 91 96 100 104 105 107 108 109 110 113 120 124 125 126 132 134 135 136 142 145 147 151 153 155 157 158 160 163 ...	1	[7500 5000 799612 622880 934106 519839 795975 72103 803667 789859 448038 196788]
+Fail Test Case: rrii10
+
+Incorrect Output
+
+Expected output vs your output:
+
+Expected Output	Your Output
+1	[0 1 2 3 5 6 7 8 10 11 12 13 15 16 17 18 20 21 22 23 25 26 27 28 30 31 32 33 35 36 37 38 40 41 42 43 45 46 47 48 50 51 52 53 55 56 57 58 60 61 62 63 65 66 67 68 70 71 72 73 75 76 77 78 80 81 82 83 85...	1	[650000 127990 649999 4 649989 12 649979 20 649969 28 649959 36]
+Fail Test Case: rrii9
+
+Incorrect Output
+
+Expected output vs your output:
+
+Expected Output	Your Output
+1	[2 4 5 6 8 9 13]	1	[15 8 1 5 3 11 11 11 9 1 0 0]
+

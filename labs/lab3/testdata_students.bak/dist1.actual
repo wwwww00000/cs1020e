@@ -1,0 +1,55 @@
+Store -1 Bedok ShengSiong- added
+Store -4 Clementi Giant- added
+Store -2 Bedok NTUC- added
+Store -3 Lemontea NTUC- added
+Store -3 Lemontea NTUC- removed
+Store -4 Clementi Giant- removed
+Store -3 Clementi NTUC- added
+Product -1 Ricola Sweet- added
+Product -4 Eclipse Breathmints- added
+Product -2 Ricola Lozenges- added
+Product -3 Str Lozenges- added
+Product -3 Str Lozenges- removed
+Product -4 Eclipse Breathmints- removed
+Product -3 Strepsils Lozenges- added
+Product -1 Ricola Sweet- mapped to store -2 Bedok NTUC-
+Product -2 Ricola Lozenges- mapped to store -2 Bedok NTUC-
+Product -3 Strepsils Lozenges- mapped to store -2 Bedok NTUC-
+Product -2 Ricola Lozenges- mapped to store -3 Clementi NTUC-
+Product -1 Ricola Sweet- mapped to store -3 Clementi NTUC-
+Product -3 Strepsils Lozenges- mapped to store -3 Clementi NTUC-
+Product -3 Strepsils Lozenges- unmapped from store -2 Bedok NTUC-
+Product -1 Ricola Sweet- unmapped from store -2 Bedok NTUC-
+Product -1 Ricola Sweet- unmapped from store -3 Clementi NTUC-
+
+3 store(s) remaining
+
+=Store -1 Bedok ShengSiong-
+=0 product(s)
+
+=Store -2 Bedok NTUC-
+=1 product(s) [
+=    -2 Ricola Lozenges-
+=]
+
+=Store -3 Clementi NTUC-
+=2 product(s) [
+=    -2 Ricola Lozenges-
+=    -3 Strepsils Lozenges-
+=]
+
+3 product(s) remaining
+
+=Product -1 Ricola Sweet-
+=0 store(s)
+
+=Product -2 Ricola Lozenges-
+=2 store(s) [
+=    -2 Bedok NTUC-
+=    -3 Clementi NTUC-
+=]
+
+=Product -3 Strepsils Lozenges-
+=1 store(s) [
+=    -3 Clementi NTUC-
+=]

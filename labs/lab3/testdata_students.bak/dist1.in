@@ -1,0 +1,24 @@
+3
++store 1 Bedok ShengSiong
++store 4 Clementi Giant
++store 2 Bedok NTUC 
++store 3 Lemontea NTUC
+-store 3
+-store Clementi Giant
++store 3 Clementi NTUC
++prod 1 Ricola Sweet
++prod 4 Eclipse Breathmints
++prod 2 Ricola Lozenges
++prod 3 Str Lozenges
+-prod 3
+-prod Eclipse Breathmints 
++prod 3 Strepsils Lozenges 
++map Ricola Sweet Bedok NTUC
++map Ricola Lozenges Bedok NTUC
++map Strepsils Lozenges Bedok NTUC
++map Ricola Lozenges Clementi NTUC
++map Ricola Sweet Clementi NTUC
++map Strepsils Lozenges Clementi NTUC
+-map Strepsils Lozenges Bedok NTUC
+-map Ricola Sweet Bedok NTUC
+-map Ricola Sweet Clementi NTUC

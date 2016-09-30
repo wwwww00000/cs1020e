@@ -1,0 +1,33 @@
+5
++prod 123 Mars Bar
++store 123 Siglap NTUC
++prod 124 Snickers Bar
++store 124 MarineParade NTUC
++prod 128 Mars Bar
++prod 123 KitKat Choc
++prod 125 Snickers Nuts
++store 125 MarineParade Econ
++store 127 Siglap NTUC
++store 124 EastCoast MCDonalds
++prod 123 Mars Bar
++prod 125 Mars Bar
++prod 123 Snickers Nuts
++store 123 Siglap NTUC
++store 125 Siglap NTUC
++store 123 MarineParade Econ
++map Snickers Bar MarineParade Econ
+-store 120
+-store Siglap Center
+-store Home Econ
+-prod 120
+-prod Mars Attack
+-prod Gone Nuts
+-store 124
+-store MarineParade Econ
+-prod 124
+-prod Snickers Nuts
++prod 120 SaltedEgg Burger
++store 120 YourHouse McDonalds
++map SaltedEgg Burger Siglap NTUC
++map Mars Bar Siglap NTUC
++prod 121 Salted Egg
