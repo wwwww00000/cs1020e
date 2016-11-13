@@ -5,7 +5,6 @@ inoremap jk <Esc>
 
 set incsearch
 set hlsearch
-
 nnoremap <silent><Cr> :noh<Cr>
 ```
 
@@ -13,9 +12,7 @@ nnoremap <silent><Cr> :noh<Cr>
 
 ```
 set editing-mode vi
-
 set keymap vi-insert
-
 "jk": "\e"
 ```
 
@@ -42,12 +39,21 @@ struct binaryPtrEqual {
 		return (*left == *right);
 	}
 };
+
+// lambda function for map max_element
+map<string,int>::iterator max_it = max_element(counts.begin(),
+			counts.end(), [](const pair<string, int>& pair1, const
+			pair<string,int>& pair2) { return pair1.second <
+			pair2.second; });
+
+// case transform
+transform(str1.begin(), str1.end(), str1.begin(), ::tolower);
 ```
 
 ### outputs.sh
 
 ```bash
-#!/bin/bash -xe
+#!/bin/bash -x
 inputs="testdata_students/*.in"
 regex="([a-z]+[0-9]+).in"
 for f in $inputs; do
@@ -63,7 +69,7 @@ done
 ### diffs.sh
 
 ```bash
-#!/bin/bash -xe
+#!/bin/bash -x
 act_outputs="testdata_students/*.actual"
 regex="([a-z]+[0-9]+).actual"
 for f in $act_outputs; do
@@ -73,5 +79,21 @@ for f in $act_outputs; do
 	fi
 	out_name="testdata_students/$test_case.out"
 	diff $f $out_name
+done
+```
+
+### test.sh
+
+```bash
+#!/bin/bash -x
+inputs="testdata_students/*.in"
+regex="([a-z0-9_]+).in"
+for f in $inputs; do
+	if [[ $f =~ $regex ]]
+	then
+		test_case="${BASH_REMATCH[1]}"
+		out_name="testdata_students/${test_case}.out"
+		./a.out < $f | diff $out_name -
+	fi
 done
 ```

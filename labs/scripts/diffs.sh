@@ -1,4 +1,4 @@
-#!/bin/bash -xe
+#!/bin/bash -x
 act_outputs="testdata_students/*.actual"
 regex="([a-z0-9]+).actual"
 for f in $act_outputs; do
